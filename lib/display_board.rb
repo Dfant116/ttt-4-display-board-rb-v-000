@@ -1,5 +1,3 @@
-board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
-
 def display_board(board)
   puts "   |   |   ",
        "-----------",
@@ -8,5 +6,7 @@ def display_board(board)
        "   |   |   "
      end
 
-board = ["   ", "   ", "   ", "   ", " X ", "   ", "   ", "   ", "   "]
+puts "Turn 1"
+board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
   display_board(board)
+  
