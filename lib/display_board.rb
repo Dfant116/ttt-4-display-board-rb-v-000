@@ -6,4 +6,11 @@ def display_board(board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   
        "   |   |   "
      end
 
-display_board(board = ["   ", "   ", "   ", "   ", " X ", "   ", "   ", "   ", "   "])
+def display_board(board = ["   ", "   ", "   ", "   ", " X ", "   ", "   ", "   ", "   "])
+  puts "   |   |   ",
+       "-----------",
+       "   |   |   ",
+       "-----------",
+       "   |   |   "
+     end
+     
