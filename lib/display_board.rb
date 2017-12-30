@@ -7,9 +7,9 @@ def display_board(board)
      end
 
 puts "Turn 1"
-board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
+board = ["   ", "   ", "   ", "   ", " X ", "   ", "   ", "   ", "   "]
   display_board(board)
 
 puts "Turn 2"
-board = ["   ", "   ", "   ", "   ", " X ", "   ", "   ", "   ", "   "]
+board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 display_board(board)
